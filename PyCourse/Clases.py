@@ -24,9 +24,20 @@ class Jarra:
             self.contenido=self.contenido-(Jarra.capacidad-Jarra.contenido)
             Jarra.contenido=Jarra.capacidad
 
+class JarraCristal(Jarra):
+    def romperse(self):
+        print 'La jarra se ha roto'
+
+
 #Main
 j=Jarra(7)
 j2=Jarra(5)
+j3= JarraCristal(5)
+
+print 'J3CAP: ' + str(j3.capacidad)
+print 'J3CONT: ' + str(j3.contenido)
+
+
 
 j.llena()
 
