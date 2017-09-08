@@ -31,5 +31,6 @@ print ("El resultado es: "+res)
 # BOOLEAN
 b1=True
 b2=False
-
+# and || &
+# or || |
 print (not b2)
