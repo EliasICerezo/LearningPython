@@ -36,4 +36,6 @@ training_day= media.Movie("Training Day",
 
 movies=[jaws,star_wars,interstellar,mile8,alien,training_day]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__module__)
